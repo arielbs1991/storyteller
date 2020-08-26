@@ -25,17 +25,20 @@ const ChapterSchema = new Schema({
     author: {
         type: String
     },
-    images: {
-        type: Map,
-        of: String
-    },
-    soundFiles: {
-        type: Map,
-        of: String
-    },
+    // images: {
+    //     type: Map,
+    //     of: String
+    // },
+    // soundFiles: {
+    //     type: Map,
+    //     of: String
+    // },
     readerChoices: {
         type: Map,
         of: String
+    },
+    storyId: {
+        type: Number
     }
 })
 

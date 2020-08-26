@@ -15,6 +15,9 @@ const PageSchema = new Schema({
     },
     chapterId: {
         type: Number
+    },
+    contributionId: {
+        type: Number
     }
 })
 

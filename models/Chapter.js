@@ -39,6 +39,10 @@ const ChapterSchema = new Schema({
     },
     storyId: {
         type: Number
+    },
+    isContribution: {
+        type: Boolean,
+        required: "Is this chapter a contribution to another Author's work?"
     }
 })
 

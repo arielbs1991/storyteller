@@ -43,7 +43,8 @@ const ChapterSchema = new Schema({
     isContribution: {
         type: Boolean,
         required: "Is this chapter a contribution to another Author's work?"
-    }
+    },
+    timestamps: true,
 })
 
 const Chapter = mongoose.model("Chapter", ChapterSchema);

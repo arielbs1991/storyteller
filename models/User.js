@@ -22,10 +22,18 @@ const UserSchema = new Schema({
         type: Date,
         default: Date.now
     },
-    meta: {
-        storiesCreated: Number,
-        contributions: Number,
-        favorited: Number
+
+    storiesCreated: {
+        type: Number,
+        default: 0
+    },
+    contributions: {
+        type: Number,
+        default: 0
+    },
+    favorited: {
+        type: Number,
+        default: 0
     }
 
 });

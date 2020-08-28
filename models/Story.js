@@ -33,6 +33,10 @@ contributors: {
 themes: {
     type: Map,
     of: String
+},
+storyCreated: {
+    type: Date,
+    default: Date.now
 }
 })
 
